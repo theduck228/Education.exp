@@ -1,0 +1,115 @@
+.foot__contacts{
+  height: 500px;
+  .footer-desktop__header-container{
+    display: none;
+  }
+  .footer-desktop__subscription-container{
+    display: none;
+  }
+  & h2{
+    font-size: @header1_font;
+    width: 80%;
+  }
+  & div{
+    display: flex;
+    align-content: space-evenly;
+    width: 60%;
+    & .Whats_Up {
+      background: url("../sources/What$$Up.png") no-repeat;
+      width: 46px;
+      height: 46px;
+      transform: scale(3) translateY(50%);
+    }
+    & .Telegram{
+      background: url("../sources/Telegram.png") no-repeat;
+      width: 46px;
+      height: 46px;
+      transform: scale(3) translateY(55%);
+    }
+  }
+}
+@media screen and (min-device-width: 600px){
+  footer {
+    width: 100%;
+    .foot__contacts {
+      margin: 0;
+      background: url("../sources/footer_bg.png") no-repeat;
+      background-size: cover;
+      width: 100%;
+      //min-width: 1440px;
+      height: 80vh;
+      max-height: 800px;
+      justify-items: center;
+      align-items: center;
+      .footer-content-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        height: 100%;
+        .footer-desktop__header-container {
+          width: 100%;
+          height: 30%;
+          display: flex;
+          flex-direction: column;
+          justify-content: start;
+          h3 {
+            color: @blue_font;
+            font-size: 14px;
+            line-height: 24px;
+            margin-bottom: 10px;
+          }
+
+          h1 {
+            display: inline;
+            font-size: 24px;
+            line-height: 32px;
+            margin-bottom: 10px;
+          }
+
+          p {
+            color: #737373;
+            font-size: 14px;
+            line-height: 20px;
+          }
+        }
+
+        .footer-desktop__subscription-container {
+          width: 98%;
+          display: flex;
+          input {
+            height: 60px;
+            margin: 0;
+            width: 90%;
+            border-radius: 5px 0 0 5px;
+            border: none;
+          }
+          input::placeholder {
+            margin: 0;
+            text-align: left;
+            border: none;
+            background-color: #fff;
+            text-indent: 10px;
+          }
+          input:focus{
+            border: none;
+            text-align: left;
+            text-indent: 10px;
+          }
+          button {
+            border-radius: 0 5px 5px 0;
+            font-weight: 400;
+            height: 60px;
+          }
+        }
+      }
+      h2{
+        display: none;
+      }
+      .foot__links{
+        display: none;
+      }
+    }
+  }
+}
