@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Кванториум</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/modules/header__module/header.css">
+</head>
+<body>
+    <div class="project__full">
+        <header class="head__header">
+            <div class="head__title">
+                <div class="head-left">
+                    <h1 class="_anim-items _anim-no-hide"> ОБРАЗОВАНИЕ exp </h1>
+                    <div class="header__pages">
+                        <button href="#" class="_anim-items _anim-no-hide" onclick="scrollToElement('footer')">Запись</button>
+                        <button href="#" class="_anim-items _anim-no-hide" onclick="scrollToElement('response')">Отзывы</button>
+                    </div>
+                </div>
+                <div class="head-right">
+                   <button class="_anim-items _anim-no-hide" id="btn-modal-head">Запись</button>
+                </div>
+            </div>
+            <div class="head__intro">
+                <div class="head__intro__pic _anim-items _anim-no-hide">
+                    <h1 class="_anim-items _anim-no-hide">МЫ ОБУЧИЛИ УЖЕ БОЛЬШЕ 25 ТЫСЯЧ СТУДЕНТОВ</h1>
+                    <p class="_anim-items _anim-no-hide">Воспользуйтесь преимуществами наших курсов</p>
+                    <div class="btns__container">
+                        <button class="_anim-items _anim-no-hide" id="btn-modal-intro">Запись</button>
+                        <button class="btn__know-more _anim-items _anim-no-hide" onclick="scrollToElement('advanced-areas')">Узнать подробнее</button>
+                    </div>
+                </div>
+                <div class="head__sign-up__btn__container">
+                    <input type="button" class="head__sign-up__btn" id="head__sign-up__btn" value="ЗАПИСАТЬСЯ">
+                </div>
+            </div>
+            <div class="head__header__info">
+                <h1 class="header__info__box">МЫ ОБУЧИЛИ УЖЕ БОЛЬШЕ 25 ТЫСЯЧ СТУДЕНТОВ</h1>
+            </div>
+        </header>
+        <main class="main__info">
+            <div class="main__info__stats">
+                <h1>ОНЛАЙН - ШКОЛА</h1>
+                <div class="stats__block">
+                    <div class="stats__graduates">
+                        <h2>25000</h2>
+                        <p>выпускников</p>
+                    </div>
+                    <div class="stats__teachers">
+                        <h2>350</h2>
+                        <p>методистов</p>
+                    </div>
+                    <div class="stats__students">
+                        <h2>7000</h2>
+                        <p>учеников ежегодно</p>
+                    </div>
+                    <div class="stats__countries">
+                        <h2>21</h2>
+                        <p>страна присутствия</p>
+                    </div>
+                </div>
+                <div class="main__stats__btn__box">
+                    <input type="button" class="stats__consult__btn" id="stats__consult__btn" value="БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ">
+                </div>
+            </div>
+            <div class="main__info__schedule">
+                <div class="schedule__block">
+                    <div class="schedule__first__week">
+                        <h1>1</h1>
+                        <h2>ПРОБНАЯ НЕДЕЛЯ</h2>
+                        <p>С 1 сентября по 10 мая вы можете пройти полноценную пробную неделю обучения в дистанционной школе. Это абсолютно бесплатно</p>
+                    </div>
+                    <div class="schedule__second__week">
+                        <h1>2</h1>
+                        <h2>ЗАЧИСЛЕНИЕ</h2>
+                        <p>Начать полноценное обучение  можно уже с первого дня, после этого дослать нам все необходимые документы</p>
+                    </div>
+                    <div class="schedule__third__week">
+                        <h1>3</h1>
+                        <h2>ОБУЧЕНИЕ</h2>
+                        <p>Обучайтесь у лучших учителей нашей страны, развивайтесь и социализируйтесь с помощью нашей системы обучения</p>
+                    </div>
+                </div>
+                <div class="main__schedule__btn__box">
+                    <input type="button" class="schedule__school__record_btn" id="schedule__school__record_btn" value="ПОСТУПИТЬ В ШКОЛУ">
+                </div>
+            </div>
+            <div class="main__info__recommends">
+                <h1 class="recommends__header">ПОЧЕМУ МЫ?</h1>
+                <div class="recommends__block">
+                    <div class="recommends__teachers recommends__item _anim-items _anim-no-hide">
+                        <h1></h1>
+                        <h2>Лучшие учителя</h2>
+                        <hr>
+                        <p>У нас преподают только лучшие учителя города и страны</p>
+                    </div>
+                    <div class="recommends__courses recommends__item _anim-items _anim-no-hide">
+                        <h1></h1>
+                        <h2>25 онлайн курсов</h2>
+                        <hr>
+                        <p>Лучшие онлайн курсы разных направленностей</p>
+                    </div>
+                    <div class="recommends__forward recommends__item _anim-items _anim-no-hide">
+                        <h1></h1>
+                        <h2>Только вперед</h2>
+                        <hr>
+                        <p>Мы обучаем передовым направлениям вплоть до робототехники</p>
+                    </div>
+                </div>
+                <div class="recommends__consult__btn__box">
+                    <input type="button" class="recommends__consult__btn" id="recommends__consult__btn" value="БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ">
+                </div>
+            </div>
+            <div class="main__info__curator">
+                <div class="curator__info__block">
+                    <h1>ПЕРСОНАЛЬНЫЙ КУРАТОР</h1>
+                    <p>У каждого ученика есть куратор, котрый оперативно ответит на любые вопросы по ходу учебного процесса. Куратор - помощник и наставник, который всегда на связи с родителями и ребенком</p>
+                    <div class="curator__pic__box">
+                        <img src="sources/Curator_feedback.png" alt="" class="curator__feedback__pic">
+                    </div>
+                </div>
+                <div class="curator__consult__btn__box">
+                    <input type="button" class="curator__consult__btn" id="curator__consult__btn" value="ПОСТУПИТЬ В ШКОЛУ">
+                </div>
+            </div>
+            <div class="advanced_areas desktop" id="advanced-areas">
+                <div class="advanced_areas row">
+                    <img src="sources/фото%20к%20тексту.svg" class="_anim-items _anim-no-hide" alt="">
+                    <div class="advanced_areas text_block">
+                        <hr class="_anim-items _anim-no-hide">
+                        <h1 class="_anim-items _anim-no-hide">Передовые направления</h1>
+                        <p class="_anim-items _anim-no-hide">В нашей команде вы можете узнать, как создавать и программировать роботов, как писать для них рабочие программы, а главное сами создадите своего робота</p>
+                        <div class="advanced-areas know-more _anim-items _anim-no-hide">
+                            <p>Узнать подробнее</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="16" viewBox="0 0 9 16" fill="none">
+                                <g clip-path="url(#clip0_2636_2778)">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.180771 0.180771C0.237928 0.123469 0.305828 0.0780065 0.380583 0.0469869C0.455337 0.0159672 0.535477 0 0.616412 0C0.697347 0 0.777487 0.0159672 0.852241 0.0469869C0.926996 0.0780065 0.994896 0.123469 1.05205 0.180771L8.4358 7.56452C8.4931 7.62168 8.53857 7.68958 8.56959 7.76433C8.60061 7.83909 8.61657 7.91923 8.61657 8.00016C8.61657 8.0811 8.60061 8.16123 8.56959 8.23599C8.53857 8.31074 8.4931 8.37864 8.4358 8.4358L1.05205 15.8196C0.936514 15.9351 0.779809 16 0.616412 16C0.453015 16 0.29631 15.9351 0.180771 15.8196C0.0652316 15.704 0.000322157 15.5473 0.000322157 15.3839C0.000322157 15.2205 0.0652316 15.0638 0.180771 14.9483L7.13011 8.00016L0.180771 1.05205C0.123469 0.994896 0.078006 0.926996 0.0469863 0.852242C0.0159666 0.777487 0 0.697347 0 0.616412C0 0.535478 0.0159666 0.455338 0.0469863 0.380583C0.078006 0.305829 0.123469 0.237928 0.180771 0.180771Z" fill="#0062FD"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2636_2778">
+                                        <rect width="9" height="16" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="group_study desktop">
+                <div class="group_study row">
+                    <img class="_anim-items _anim-no-hide" src="sources/Видеоsvg.svg" alt="">
+                    <div class="advanced_areas text_block">
+                        <hr class="_anim-items _anim-no-hide">
+                        <h1 class="_anim-items _anim-no-hide">Групповое обучение</h1>
+                        <p class="_anim-items _anim-no-hide">Несмотря на то, что индивидуальные занятия могут быть очень эффективными, многие из тех, кто стремится к знаниям, отдают предпочтения занятиям в группе. Это не случайно, ведь у групповых занятий много преимуществ</p>
+                        <div class="group_study know-more">
+                            <p class="_anim-items _anim-no-hide">Узнать подробнее</p>
+                            <svg class="_anim-items _anim-no-hide" xmlns="http://www.w3.org/2000/svg" width="9" height="16" viewBox="0 0 9 16" fill="none">
+                                <g clip-path="url(#clip0_2636_2778)">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.180771 0.180771C0.237928 0.123469 0.305828 0.0780065 0.380583 0.0469869C0.455337 0.0159672 0.535477 0 0.616412 0C0.697347 0 0.777487 0.0159672 0.852241 0.0469869C0.926996 0.0780065 0.994896 0.123469 1.05205 0.180771L8.4358 7.56452C8.4931 7.62168 8.53857 7.68958 8.56959 7.76433C8.60061 7.83909 8.61657 7.91923 8.61657 8.00016C8.61657 8.0811 8.60061 8.16123 8.56959 8.23599C8.53857 8.31074 8.4931 8.37864 8.4358 8.4358L1.05205 15.8196C0.936514 15.9351 0.779809 16 0.616412 16C0.453015 16 0.29631 15.9351 0.180771 15.8196C0.0652316 15.704 0.000322157 15.5473 0.000322157 15.3839C0.000322157 15.2205 0.0652316 15.0638 0.180771 14.9483L7.13011 8.00016L0.180771 1.05205C0.123469 0.994896 0.078006 0.926996 0.0469863 0.852242C0.0159666 0.777487 0 0.697347 0 0.616412C0 0.535478 0.0159666 0.455338 0.0469863 0.380583C0.078006 0.305829 0.123469 0.237928 0.180771 0.180771Z" fill="#0062FD"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2636_2778">
+                                        <rect width="9" height="16" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="students-response" id="response">
+                <div class="student-response-text text_block">
+                    <hr class="_anim-items _anim-no-hide">
+                    <h1 class="_anim-items _anim-no-hide">Отзывы наших студентов</h1>
+                    <p class="_anim-items _anim-no-hide">В этом раделе вы можете прочитать отзывы, которые оставляют наши ученики и ученицы после успешного прохождения курсов и получения новых знаний</p>
+                </div>
+                <div class="student-response student_profile-container">
+                    <div class="student_profile _anim-items _anim-no-hide">
+                        <img src="sources/boy.png" alt="">
+                        <p>Спасибо большое вашей школе, узнал много полезного, устроился на хорошую работу и обеспечиваю себя!</p>
+                        <ul class="student_profile-ratio">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <h1>Антов Попов</h1>
+                        <h2>Проектировщик домашних роботов</h2>
+                    </div>
+                    <div class="student_profile _anim-items _anim-no-hide">
+                        <img src="sources/girl.png" alt="">
+                        <p>Еще на этапе обучения поняла, что робототехника - моя жизнь, спасибо, что открыли мне глаза на мир!)</p>
+                        <ul class="student_profile-ratio">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <h1>Алина Швец</h1>
+                        <h2>Проектировщик - эргономист</h2>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="foot__footer" id="footer">
+            <div class="foot__contacts">
+                <div class="footer-content-container">
+                    <div class="footer-desktop__header-container">
+                        <h3>Подписка</h3>
+                        <h1>Позвольте нам обучить вас</h1>
+                        <p>Подпишитесь на бесплатную рассылку и будте в курсе важных новостей о нашей школе Кванториум, скидках, об обучении новым направлениям</p>
+                    </div>
+                    <div class="footer-desktop__subscription-container">
+                        <input type="text" placeholder="Ваша почта">
+                        <button>Подписаться</button>
+                    </div>
+                </div>
+                <h2 class="foot__accompanying__text">Остались вопросы? Напишите нам в мессенджер</h2>
+                <div class="foot__links">
+                    <a href="#" class="Whats_Up"></a>
+                    <a href="#" class="Telegram"></a>
+                </div>
+            </div>
+        </footer>
+        <div class="modal" id="only_modal">
+            <div class="modal__box">
+                <input type="button" class="modal__box__close__btn" id="modal__box__close__btn">
+                <h1> Бесплатная неделя занятий </h1>
+                <p>Зачастую одного занятия не достаточно, чтобы определить, 
+                    понравилась ли школа ученику, поэтому мы предоставляем доступ к 
+                    полноценной бесплатной неделе занятий. Заполните заявку, и наш 
+                    специалист свяжется с Вами, чтобы определить класс ученика и открыть 
+                    бесплатный доступ.</p>
+                <div class="modal__box__registration">
+                    <input type="text" class="modal__box__user__name" placeholder="Вас зовут">
+                    <input type="text" class="modal__box__user__phone" placeholder="Номер телефона">
+                    <input type="text" class="modal__box__user__email" placeholder="Почтовый адрес">
+                </div>
+                <button type="submit" class="modal__box__send__btn btn" id="#btn-send">Отправить</button>
+                <p class="allow-text">Нажимая на кнопку, я соглалаюсь на обработку персональных данных</p>
+            </div>
+        </div>
+        <div class="scroller" id="scroll-to-top">
+            <button type="button" class="btn_scroller"></button>
+        </div>
+    </div>
+</body>
+<script defer src="js/pop_up.js"></script>
+<script defer src="js/scroller.js"></script>
+<script defer src="js/anim.js"></script>
+<script defer src="js/scroll-to-element.js"></script>
+</html>
